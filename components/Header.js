@@ -7,7 +7,7 @@ const Header = () => {
                 <div>
 
                 </div>
-                <nav>
+                <nav className={styles.nav}>
                     <Link href="/">Home</Link>
                     <Link href="/nosotros">About os</Link>
                     <Link href="/blog">Blog</Link>

@@ -10,6 +10,10 @@ const Layout = ({ children, page }) => {
             </Head>
             <Header />
             {children}
+            <div>
+                <span>sasa</span>
+                <p>sa</p>
+            </div>
         </div>
     )
 }
