@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import Layout from '../components/Layout'
 
 export default function Home() {
@@ -8,7 +5,7 @@ export default function Home() {
       <Layout
         page='Inicio'
       >
-        <h1>Desde inicio</h1>
+        <h1>From home</h1>
       </Layout>
   )
 }
